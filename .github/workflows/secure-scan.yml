@@ -25,4 +25,6 @@ jobs:
       # Runs Secure Scan action
       - name: ok-gh-securescan-action
         uses: doytsujin/ok-gh-securescan-action@v0.0.4
+        with:
+          args: "run gh-securescan-org"
         
